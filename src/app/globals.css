@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfaf7;
+  --foreground: #1c1d1a;
+  
+  --color-teal: #006970;
+  --color-teal-hover: #004d52;
+  --color-jasper: #c34a26;
+  --color-jasper-hover: #a1361b;
+  --color-eggplant: #36064d;
+  --color-bone-soft: #fbfaf7;
+  --color-bone-card: #f3efe6;
+  --color-bone-border: rgba(54, 6, 77, 0.08);
+  --color-ink: #1b1c12;
+  --color-muted: rgba(54, 6, 77, 0.68);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-teal: var(--color-teal);
+  --color-teal-hover: var(--color-teal-hover);
+  --color-jasper: var(--color-jasper);
+  --color-jasper-hover: var(--color-jasper-hover);
+  --color-eggplant: var(--color-eggplant);
+  --color-bone-soft: var(--color-bone-soft);
+  --color-bone-card: var(--color-bone-card);
+  --color-bone-border: var(--color-bone-border);
+  --color-ink: var(--color-ink);
+  --color-muted: var(--color-muted);
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-outfit), sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom Scrollbar for a premium look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bone-soft);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(54, 6, 77, 0.15);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(54, 6, 77, 0.3);
+}
+

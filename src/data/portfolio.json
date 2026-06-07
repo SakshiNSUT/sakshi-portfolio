@@ -1,0 +1,96 @@
+{
+  "personalInfo": {
+    "name": "Sakshi",
+    "role": "Product & Data Analyst",
+    "email": "sakshinsut102@gmail.com",
+    "phone": "+91-9990999345",
+    "linkedin": "https://linkedin.com/in/sakshi-srivastava",
+    "github": "https://github.com/SakshiNSUT",
+    "location": "Gurgaon, India"
+  },
+  "about": "I am an Analyst skilled in SQL, Python, and Power BI with experience in analyzing user journeys, driving UX enhancements, and automating reporting workflows. Proven track record of improving conversion, reducing drop-offs, and enhancing decision-making through impactful dashboards and data-driven insights. Demonstrated success in optimizing processes through robust statistical analysis and experimentation (A/B testing, funnel analysis, RCA).",
+  "education": [
+    {
+      "school": "Netaji Subhas University of Technology (NSUT), Delhi",
+      "degree": "Bachelor of Technology",
+      "gpa": "8.21/10",
+      "years": "2021 – 2025"
+    }
+  ],
+  "skills": {
+    "languagesAndDatabases": ["SQL", "Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Excel (Pivot Tables, DAX)"],
+    "biAndVisualization": ["Power BI", "Tableau", "Alteryx"],
+    "analyticsTools": ["Google Analytics", "Mixpanel"],
+    "analyticalTechniques": ["A/B Testing", "Funnel Analysis", "Cohort Analysis", "RCA", "Problem Solving"],
+    "toolsAndPlatforms": ["Databricks", "JIRA", "Confluence"],
+    "softSkills": ["Analytical Thinking", "Product Understanding", "Stakeholder Communication", "Data Storytelling"]
+  },
+  "experience": [
+    {
+      "role": "Analyst",
+      "company": "Alvarez & Marsal",
+      "location": "Gurgaon",
+      "dates": "Aug 2025 – Present",
+      "description": "A global professional services firm specializing in performance improvement, turnaround management and advisory.",
+      "bullets": [
+        "Conducted deep-dive diagnostics across 3+ industries to identify user, process, and pricing inefficiencies, uncovering opportunities for 5-10% cost improvement.",
+        "Designed and enhanced core dashboards in RAPID, a prescriptive analytics tool used by clients to evaluate pricing, leakage, and margin performance.",
+        "Introduced AI-assisted quality checks and hypothesis validation workflows, reducing analytical turnaround time by 30% for cross-functional teams.",
+        "Managed and prioritized 20+ deliverables across product, client, and analytics tracks, ensuring 100% on-time handoffs for senior stakeholders.",
+        "Partnered with client product leaders to translate business gaps into measurable metrics, enabling faster decision-making and operational improvements."
+      ]
+    },
+    {
+      "role": "Product Analyst Intern",
+      "company": "Housing.com (REA India)",
+      "location": "Gurgaon",
+      "dates": "Apr 2025 – Jul 2025",
+      "description": "India's premier full-stack real estate platform providing comprehensive home-seeking solutions.",
+      "bullets": [
+        "Analyzed Buy journey via GA4 and SQL, pinpointing drop-offs to drive UX changes and a 10.2% conversion.",
+        "Redesigned Truecaller login flow with a verification screen to eliminate accidental submissions, increasing MQLs by 70% and CVR by 13%.",
+        "Revamped the homepage's first fold by decluttering redundant elements, simplifying content and adding personalized recommendations, boosting search visits by 26% and CTR by 14.6%.",
+        "Built and owned cross-channel user behavior dashboards that informed re-engagement strategies, increasing return visits by 12%.",
+        "Streamlined onboarding from 5 to 3 steps by deconstructing flows and exposing drop-offs, boosting lead conversion by 8.2% and engagement by 33%.",
+        "Owned revamp of property view experience, enriching listing metadata (UX, CTAs, virtual tours) to boost session duration by 15%, cut bounce across 28% of sessions, and strengthen user intent for lead conversion."
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "name": "Fantasy Cricket Squad Optimization",
+      "technologies": ["Power BI", "Pandas", "Excel", "DAX"],
+      "bullets": [
+        "Engineered a data pipeline to scrape and process over 1 million rows of T20 player data from ESPNcricinfo using Bright Data and Pandas.",
+        "Built an interactive Power BI dashboard to analyze player performance metrics; utilized DAX for complex calculations to determine the optimal team composition, boosting team win probability to 90%."
+      ]
+    },
+    {
+      "name": "Rando San – SaaS App",
+      "technologies": ["Mixpanel", "Python"],
+      "bullets": [
+        "Engineered behavioral models on 100k users to track retention and core growth metrics.",
+        "Leveraged cohort analysis and attention matrices to optimize customer acquisition strategies."
+      ]
+    }
+  ],
+  "certifications": [
+    "Product Analytics Certification by Product School",
+    "Advanced Google Analytics 4 by Linkedin",
+    "PwC PowerBI Virtual Experience Program",
+    "Introduction to Tableau by Simplilearn",
+    "Career Essential in Business Analysis by Microsoft & Linkedin"
+  ],
+  "books": [
+    "Lean Analytics by Alistair Croll & Benjamin Yoskovitz",
+    "Hooked: How to Build Habit-Forming Products by Nir Eyal",
+    "Designing Data-Intensive Applications by Martin Kleppmann"
+  ],
+  "interests": [
+    "Product Analytics & Growth Loops",
+    "A/B Testing & Funnel Optimizations",
+    "Cricket & Sports Analytics",
+    "Data Storytelling & Visualization"
+  ],
+  "sectionOrder": ["about", "experience", "skills", "caseStudies", "certifications", "books", "interests"]
+}
