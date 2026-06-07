@@ -1,18 +1,6 @@
 import { NextResponse } from "next/server";
-import fs from "fs/promises";
-import path from "path";
-
-// Helper to get local portfolio data
-async function getPortfolioData() {
-  try {
-    const filePath = path.join(process.cwd(), "src", "data", "portfolio.json");
-    const content = await fs.readFile(filePath, "utf8");
-    return JSON.parse(content);
-  } catch (error) {
-    console.error("Error reading portfolio data:", error);
-    return null;
-  }
-}
+// 
+import portfolioData from "@/data/portfolio.json";
 
 export async function POST(request: Request) {
   try {
@@ -20,7 +8,7 @@ export async function POST(request: Request) {
     const latestMessage = messages[messages.length - 1]?.content || "";
     const lowerMessage = latestMessage.toLowerCase();
 
-    const portfolioData = await getPortfolioData();
+    // const portfolioData = await getPortfolioData();
     const apiKey = process.env.GEMINI_API_KEY;
 
     // --- DEMO MODE (FALLBACK IF NO API KEY IS CONFIGURED) ---
