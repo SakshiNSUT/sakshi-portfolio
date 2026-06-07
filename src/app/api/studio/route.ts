@@ -84,7 +84,9 @@ Please write a structured analysis with the following 4 sections exactly. Use pr
 ### 4. Risks, Tradeoffs, and Key Metrics
 (Highlight implementation risks like data privacy, cost, or latency. Outline key product metrics to track—such as CVR, CTR, bounce rates, or turnaround time—and how to evaluate success.)`;
 
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+    // const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
+
 
     const apiResponse = await fetch(geminiUrl, {
       method: "POST",
